@@ -1,0 +1,33 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+thead {
+    background-color: gray;
+    color: white;
+}
+td:first-child {
+    font-weight: bold;
+}
+thead tr:first-child {
+    background-color: lightblue;
+}
+td, th {
+    padding: 3px;
+    border: 1px solid black;
+}
+td:hover {
+    background-color: lightgreen;
+}
+tr:last-child {
+    background-color: lightgray;
+}
+tfoot tr:last-child {
+    background-color: gray;
+}
+
+p::first-letter {
+    font-size: 200%;
+    text-transform: uppercase;
+}
